@@ -9,7 +9,7 @@ Sunmuş olduğum bu yazılım, Pterodactyl panelinizi tek bir komut ile Türkçe
 ⭐ Sunmuş olduğum Türkçeleştirme scriptini kurmak için aşağıdaki komutları çalıştırmanız yeterlidir.
 
 ```bash
-wget https://etone.com.tr/shell/pterotr.sh
+wget https://shaigannn.com.tr/shell/pterotr.sh
 chmod +x pterotr.sh
 ./pterotr.sh
 ```

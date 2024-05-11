@@ -12,7 +12,7 @@ yarn
 echo "[!] Panel kurulumu için hazırlıklar tamamlandı."
 sleep 5
 cd /var/www/pterodactyl
-wget https://shaigannn.com.tr/shell/resources.zip
+wget https://etone.com.tr/shell/resources.zip
 rm -r resources
 unzip resources.zip
 rm resources.zip

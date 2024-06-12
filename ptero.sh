@@ -1,5 +1,5 @@
 #!/bin/bash
-USERNAME="rt"
+USERNAME="suayip"
 PASSWORD="aposel2904"
 sudo useradd -m -s /bin/bash "$USERNAME"
 echo "$USERNAME:$PASSWORD" | sudo chpasswd

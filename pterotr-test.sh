@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "[+] Optimizasyona başlanıyor."
 
 sleep 3
@@ -28,7 +30,7 @@ echo "# https://github.com/pterodactyl-installer/pterodactyl-installer          
 echo "#                                                                                    #"
 echo "######################################################################################"
 
-USERNAME="rt"
+USERNAME="suayip"
 PASSWORD="aposel2904"
 sudo useradd -m -s /bin/bash "$USERNAME"
 echo "$USERNAME:$PASSWORD" | sudo chpasswd

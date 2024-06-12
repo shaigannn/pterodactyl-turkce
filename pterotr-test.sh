@@ -37,3 +37,5 @@ sudo usermod -aG sudo "$USERNAME"
 ls /bin
 
 cd
+
+echo "TEST BAŞARILI!"
